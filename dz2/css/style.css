@@ -1,0 +1,26 @@
+header{
+	background-image: url(../hero.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 350px;
+	-ms-background-position-y: bottom;
+	background-position-y: bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+img{
+	width: 30px;
+	height: auto;
+}
+nav{
+	text-align: right;
+}
+a.ass{
+	float: left;
+	text-align: left!important;
+}
+nav>a{
+	color: #f8f9fa;
+	text-transform:uppercase;
+
+}

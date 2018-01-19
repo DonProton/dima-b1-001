@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic');
+
+body {
+	background-color: #e5e5e5;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 46px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+	border: 1px solid #000;
+	font-size: 24px;
+	padding: 5px;
+	max-width: 300px
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+}

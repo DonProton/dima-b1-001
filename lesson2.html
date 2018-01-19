@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- ul>li*10>a  юэл для открытиясписка ЛИ али это каждый элемент списка  -->
+	<ul type="square"> несколько типов юэла 
+		пронумерованый список это 
+
+		<ol>
+			<li><a href="">sdasg</a></li>
+			<li><a href="">sdasg</a></li>
+			<li><a href="">sdasg</a></li>
+		</ol>>
+		<li><a href="">ананас</a></li>
+		<li><a href="">ананас</a></li>
+		<li><a href="">ананас</a></li>
+		<li><a href="">ананас</a></li>
+	
+	</ul>
+	<ul>
+		<li>
+			<!-- ul>li{item$}*2 вложеный список-->
+			<ul>
+				<li>item1</li>
+				<li>item2</li>
+			</ul>
+		</li>
+	</ul>
+
+		<input type="text"><br> - поле ввода текста атрибут тайп!
+		<input type="checkbox"><br>
+		<input type="radio"><br>
+		<input type="password"><br>
+		<input type="submit"><input type="reset"><br>
+		<input type="color"><br>
+		<input type="image" src="https://www.google.com.ua/logos/doodles/2017/holidays-2017-day-1-6211122842566656-s.png"><br>
+		<input type="date"><br>
+		<input type="file"><br>
+
+		<input id="email" type="email"><label for="email">Email</label><br>
+		<input id="password" type="password"><label for="password">Password</label><br>
+		<input id="checkbox" type="checkbox"><label for="checkbox">checkbox</label>
+
+		<hr>
+		<!-- select>option{lorem2}*3 -->
+		<select name="" id="">
+			<option value="1">lorem2</option>
+			<option value="2">lorem2</option>
+			<option value="3">lorem2</option>
+		</select>
+		
+		<hr>
+
+		<button type="submit"><img src="https://www.google.com.ua/logos/doodles/2017/holidays-2017-day-1-6211122842566656-s.png" alt="1"></button>
+
+		<button onclick="alert('her')"><img src="https://www.google.com.ua/logos/doodles/2017/holidays-2017-day-1-6211122842566656-s.png" alt="1"></button>
+		
+		<hr>
+
+		<form action="D:/" method="post"> <!-- тег форм. Инпатработают только в теге форм нормально -->
+			<h1>My very first form!</h1><br> <!-- required это поле неможет быть путым -->
+			<!-- disabled атрибут для дизактивации -->
+			<!-- pattern ВАЛИДАЦИЯ шаблон для ведения атрибутов -->
+			<input id="email" type="email" required disabled><label for="email">Email</label><br>
+			<input id="Phone" type="Phone" required pattern="[0-9]{10,}"><label for="Phone">Phone</label><br>
+			<input id="password" type="password" required><label for="password">Password</label><br>
+			<br>
+			<input type="submit">
+			<input type="reset">
+		</form>
+ 		 <hr>
+ 		 <!-- placeholder - нередактируемый текст внутри колонок. -->
+			<textarea placeholder="sdifsd" name="text" id="text" cols="50" rows="20"></textarea>
+</html>
